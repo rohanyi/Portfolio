@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rohan Yitta - Resume</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #2f4f4f;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .contact p {
+      margin: 5px 0;
+    }
+
+    nav {
+      background: #3a3a3a;
+      text-align: center;
+      padding: 10px 0;
+      position: relative;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      position: relative;
+      padding: 10px 15px;
+      display: inline-block;
+    }
+
+    nav a:hover {
+      background-color: #555;
+    }
+
+    .dropdown {
+      display: inline-block;
+      position: relative;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #ffffff;
+      min-width: 200px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      z-index: 1000;
+      text-align: left;
+    }
+
+    .dropdown-content a {
+      color: #003049;
+      padding: 12px 20px;
+      display: block;
+      text-decoration: none;
+      font-weight: normal;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #f2f2f2;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    main {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+
+    .sidebar {
+      flex: 1;
+      padding: 20px;
+    }
+
+    .content {
+      flex: 2;
+      padding: 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Rohan Yitta</h1>
+    <div class="contact">
+      <p>📧 ryitta@student.shsd.org</p>
+      <p>📍 Bedminster, New Jersey</p>
+    </div>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <div class="dropdown">
+      <a href="#">Portfolio ▾</a>
+      <div class="dropdown-content">
+        <a href="html/handcode.html">Hand Code</a>
+        <a href="html/page2.html">Assignment 2</a>
+        <a href="html/page3.html">Assignment 3</a>
+        <a href="html/page5-1.html">Assignment 5-1</a>
+        <a href="html/page5-2.html">Assignment 5-2</a>
+        <a href="htmk/page5-3.html">Assignment 5-3</a>
+        <a href="html/page6.html">Assignment 6</a>
+        <a href="html/media.html">Media Project</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <aside class="sidebar">
+      <section class="profile card">
+        <h2>About Me</h2>
+        <p>I’m a dedicated high school student passionate about technology, coding, and problem solving. I thrive under pressure and love pushing myself to grow through new challenges.</p>
+      </section>
+      <section class="skills card">
+        <h2>Skills</h2>
+        <ul>
+          <li>Technology</li>
+          <li>Coding</li>
+          <li>Problem Solving</li>
+          <li>Working Through Hard Times</li>
+        </ul>
+      </section>
+    </aside>
+
+    <section class="content">
+      <section class="education card">
+        <h2>🎓 Education</h2>
+        <div class="school">
+          <h3>Bernards High School</h3>
+          <ul>
+            <li>Freshman, Class of 2028</li>
+            <li>GPA: 4.0</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="sports-clubs card">
+        <h2>🏅 Sports & Activities</h2>
+        <ul>
+          <li>Baseball Team – Bernards, LIB Expos, USABL and Diamond Nation Champions</li>
+          <li>Winter Track (starting soon)</li>
+        </ul>
+      </section>
+    </section>
+  </main>
+</body>
+</html>
